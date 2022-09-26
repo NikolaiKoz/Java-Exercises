@@ -12,11 +12,11 @@ public class MainOperaciones {
 
         Operacion op = new Operacion();
 
-        op.sumar(n1,n2);
-        op.resta(n1,n2);
-        op.division(n1,n2);
-        op.multiplicacion(n1,n2);
-        op.mostrarResultados();
+        int sumar = op.sumar(n1,n2);
+        int restar = op.resta(n1,n2);
+        op.mostrarResultados(sumar, restar);
+        System.out.println("La division es: " + op.division(n1,n2));
+        System.out.println("La multiplicacion es: " + op.multiplicacion(n1,n2));
 
     }
 }
