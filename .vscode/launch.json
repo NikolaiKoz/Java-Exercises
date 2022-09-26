@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainOperaciones",
+            "request": "launch",
+            "mainClass": "Objects.MainOperaciones",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Car",
+            "request": "launch",
+            "mainClass": "Objects.Car",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
+            "name": "Launch car",
+            "request": "launch",
+            "mainClass": "Objects.car",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
             "name": "Launch bubble",
             "request": "launch",
             "mainClass": "bubble",
