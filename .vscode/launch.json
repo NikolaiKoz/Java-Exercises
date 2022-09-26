@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainObjects",
+            "request": "launch",
+            "mainClass": "Objects1.MainObjects",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
             "name": "Launch MainOperaciones",
             "request": "launch",
             "mainClass": "Objects.MainOperaciones",
