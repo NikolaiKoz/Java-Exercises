@@ -1,0 +1,24 @@
+FUNCION APUESTA(v : VECTOR(ENTERO), n: ENTERO) : ENTERO ES
+    fin : boolean; +1 --
+    fin:= false; +1 --
+    apuesta, gana : real; +2 --
+    n: entero; +1 --
+    gana := 100; +1 --
+    apuesta := gana / 2; +2 --
+    LEER(n) +1 --
+    MIENTRAS (n >= 0) and (fin=false) HACER +4 --
+        gana := gana + vector[n]; +2
+        n := n - 1; +1
+        apuesta:=apuesta/2; +2
+        leer(fin);
+    FINMIENTRAS
+    DEVOLVER gana; +1
+FINFUNCION
+
+T(n) = 1 + 1 + 2 + 1 +1 + 2 + 1 + 4 + n*5 + 1
+
+T(n) = 10 + 4(5 * n)
+
+T(n) = 10 + 20 + 4n
+
+T(n) = 30 + 4n
