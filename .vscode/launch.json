@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ej1",
+            "request": "launch",
+            "mainClass": "ej1",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
             "name": "Launch MainObjects",
             "request": "launch",
             "mainClass": "Objects1.MainObjects",

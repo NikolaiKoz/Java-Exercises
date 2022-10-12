@@ -1,3 +1,5 @@
+package encapsulamiento;
+
 /*
 Deberán crear un programa en Java que permita:
 

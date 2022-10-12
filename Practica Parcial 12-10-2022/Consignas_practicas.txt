@@ -1,0 +1,47 @@
+## Calcular la complejidad de la siguiente función “APUESTA”
+
+ FUNCION APUESTA(v : VECTOR(ENTERO), n: ENTERO) : ENTERO ES
+
+apuesta, gana : real; +1
+n: entero; +1
+gana := 10000; +1
+apuesta := gana / 2; +2
+LEER(n) +1
+MIENTRAS (n >= 0) HACER +2
+gana := gana + vector[i]; +2
+n := n - 1; +2
+apuesta:=apuesta/2; +2
+
+FINMIENTRAS
+DEVOLVER gana; +1
+FINFUNCION
+
+T(n) = 15
+
+
+2)
+
+Dado el siguiente procedimiento recursivo:
+
+entero p(entero a,entero b){
+si (a=0 o b=0)
+retorna 0;
+sino si (a==1)
+retorna b;
+sino si (b==1)
+retorna a;
+sino
+
+}
+
+retorna a+p(a,b–1);
+
+-Cuál es el resultado de esta función para:
+- p(0,5) 00
+- p(7,0) 00
+- p(0,0) 00
+- p(7,5) 35
+
+-Que hace este algoritmo recursivo
+
+Este algoritmo busca que los valores sean distintos de 0 y 1 para multiplicarlos
