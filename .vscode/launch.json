@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch coche",
+            "request": "launch",
+            "mainClass": "coche",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
             "name": "Launch ej2",
             "request": "launch",
             "mainClass": "ej2",
