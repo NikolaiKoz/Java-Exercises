@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Clase2",
+            "request": "launch",
+            "mainClass": "SesentaYSietePaquetes.packege1.Clase2",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "SesentayCinco.Main",
