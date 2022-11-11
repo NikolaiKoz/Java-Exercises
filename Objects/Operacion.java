@@ -39,4 +39,22 @@ public class Operacion {
         System.out.println("La resta es: " + resta);
 
     }
+
+    public void readNumbers() {
+    }
+
+    public void add() {
+    }
+
+    public void substract() {
+    }
+
+    public void multiply() {
+    }
+
+    public void divide() {
+    }
+
+    public void showResults() {
+    }
 }
