@@ -2,7 +2,7 @@ package SesentaYSietePaquetes.packege1;
 
 public class Clase1 {
     private int edad;
-    private String nombre;
+    private final String nombre;
 
 
     // Getters and Setters
@@ -10,9 +10,11 @@ public class Clase1 {
         this.edad = edad;
     }
 
-    public void setnombre(String nombre) {
-        this.nombre = nombre;
-    }
+    // public void setnombre(String nombre) {
+    //     this.nombre = nombre;
+    // }
+
+    // Al ser una el nombre una constante, no se puede modificar, por lo que no se le pone un setter.
 
     public int getedad() {
         return edad;
@@ -21,6 +23,12 @@ public class Clase1 {
 
     public String getnombre() {
         return nombre;
+    }
+
+    // Constructor
+    public Clase1( int edad, String nombre) {
+        this.edad = edad;
+        this.nombre = nombre;
     }
 
 

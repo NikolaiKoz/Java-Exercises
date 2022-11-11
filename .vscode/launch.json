@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "EjPerimetroyAreadeUnCuadrilatero.Main",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Estatico",
+            "request": "launch",
+            "mainClass": "SetentaStaticMembers.Estatico",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clase3",
+            "request": "launch",
+            "mainClass": "SesentaYSietePaquetes.packege2.Clase3",
+            "projectName": "Java-Exercises_9e8f936f"
+        },
+        {
+            "type": "java",
             "name": "Launch Clase2",
             "request": "launch",
             "mainClass": "SesentaYSietePaquetes.packege1.Clase2",

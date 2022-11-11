@@ -5,13 +5,11 @@ import SesentaYSietePaquetes.packege1.Clase1;
 public class Clase3 {
     public static void main(String[] args) {
 
-        Clase1 object1 = new Clase1();
+        Clase1 clase1 = new Clase1( 40, "Maria" );
 
-        object1.setedad(20);
-        object1.setnombre("Juan");
+        System.out.println("Nombre: " + clase1.getnombre());
+        System.out.println("Edad: " + clase1.getedad());
 
-        System.out.println("Nombre: " + object1.getnombre());
-        System.out.println("Edad: " + object1.getedad());
 
     }
 }
