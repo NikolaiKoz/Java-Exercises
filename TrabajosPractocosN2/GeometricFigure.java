@@ -1,3 +1,5 @@
+package TrabajosPractocosN2;
+
 /*
  *Defina los atributos y métodos que considere necesario para la clase FIGURA
 GEOMETRICA. Luego cree una clase RECTANGULO, CIRCULO, CUADRADO,
